@@ -53,8 +53,8 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">admin@landhomestexas.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>(346) 7465-7515</span></i>
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">landhomestexas@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>346-746-7515</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></i></a>
@@ -78,7 +78,12 @@
           <li><a class="nav-link scrollto" href="#team">About Us</a></li>
           <li><a class="nav-link scrollto" href="#services">Capabilities</a></li>
           <li><a class="nav-link scrollto" href="#keypoints">Key Points</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Projects</a></li>
+          <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#active">Active</a></li>
+              <li><a href="#portfolio">Finished Projects</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -117,57 +122,6 @@
       <div class="section-title">
         <h2>Our Team of Experts</h2>
       </div>
-
-      <!--- <div class="row">
-          <div class="container mx-auto d-flex justify-content-center" id="card-matt">
-            <div class="card align-items-center" style="width: 18rem; align-items: center;" id="card01">
-              <img class="card-img-top" src="./assets/img/team01_matt.jpg" alt="Card image cap" style="width:60%">
-              <div class="card-body" style="border-radius: 100%;">
-                <h5 class="card-title">Matt Reihs</h5>
-                <h6 class="card-title2">Owner & CEO</h6>
-                <p class="card-text">Licensed Real Estate Broker</p>
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modalmr">Know More</button>
-              </div>
-            </div>
-            Team-Modal 01 (Matt Riehs)-->
-            <!--- <div class="modal fade" id="reg-modalmr" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content03">
-                  <div class="modal-header">
-                    <h4 class="modal-title" id="modal-title">Matt Riehs</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
-                  </div>
-                  <div class="modal-body">
-                    <p>If you need help with buyer representation, listing representation, a custom search, or comparative market 
-                      analysis on property values, I would be glad to serve you. I have over 12 years experience in real estate
-                      construction, subdivision development, and real estate investment. I was awarded the 2020 Best of the Best
-                      Contractor in Jackson and Victoria counties. I own three companies involved in real estate in different capacities,
-                      I have personally sourced, developed, and marketed 10 subdivisions since 2017.
-                    </p>
-                    <br>
-                    <p>I have a thorough understanding of properties and land from a homestead, developer, rancher, and investors
-                      perspective.</p>
-                    <br> 
-                    <p>If you are looking for an agent that understands long term financial goals and planning, budgets,
-                      financing, negotiations, marketing and investment opportunities, I'd appreciate the opportunity to assist you.</p>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div> -->
-
-      <!--<div class="row">  
-        <div class="col-lg-8 mx-auto d-flex" id="card-caleb">
-          <div class="card" style="width: 20rem; align-items: center;" id="card02">
-            <img class="card-img-top" src="./assets/img/team002-caleb.png" alt="Card image cap" style="width:60%; margin-top:10px">
-            <div class="card-body">
-              <h5 class="card-title">Caleb Gotowski</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet ...</p>
-              <a href="#" class="btn btn-primary">Click me</a>
-            </div>
-          </div>
-        </div> -->
 
         <div class="row">  
         <div class="col-lg-8 mx-auto d-flex" id="card-matt">
@@ -224,7 +178,7 @@
               <img class="card-img-top" src="./assets/img/team03a_glendel.jpg" alt="Card image cap" style="width:60%; margin-top:10px">
               <div class="card-body">
                 <h5 class="card-title">Glendel Guden</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet ...</p>
+                <p class="card-text">Project Manager/Marketing</p>
               </div>
             </div>
           </div>
@@ -235,7 +189,7 @@
               <img class="card-img-top" src="./assets/img/team03_lutchie.jpg" alt="Card image cap" style="width:60%; margin-top:10px">
               <div class="card-body">
                 <h5 class="card-title">Lutchie Villas</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet ...</p>
+                <p class="card-text">Feasibility Studies/Market Analysis</p>
               </div>
             </div>
           </div>
@@ -533,354 +487,348 @@
 
         <div class="section-title">
           <h2>Projects</h2>
-          <h3>Active</h3>
-        </div>
+          <h3 class="section-subtitle" id="active-projects">Active</h3>
+        </div>      
 
+        <div class="row" id="on-going">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box" id="burnet181">
+                    <div class="project-photo"><img src="./assets/img/proj01_burnet181.jpg"></i></div>
+                    <h4>Burnet 181</h4>
+                    <p>Address: 5825 CR 340 Burnet, TX 78611</p>
+                    <p>Area: 181 acres</p>
+                    <p>Lot Size: 2 ac - 11+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development</p>
+                    <a href="./projects-01burnet.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj02_bertram399.jpg"></i></div>
+                    <h4>Bertram 399</h4>
+                    <p>Address: 7800 CR 210, Bertram, TX 78654</p>
+                    <p>Area: 399 Acres</p>
+                    <p>Lot Size: 20 ac - 26+ac</p>
+                    <p>Features: Chital Lake and amenities including pavilions, jetties, boat ramp, etc.</p>
+                    <a href="./projects-02bertram399.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj03_georgetown.jpg"></i></div>
+                    <h4>Georgetown</h4>
+                    <p>Address: FM 1105, Georgetown, Williamson, TX 78626</p>
+                    <p>Area: 262 Acres</p>
+                    <p>Lot Size: 8+ ac - 15+ac</p>
+                    <p>Features: Opossum Creek on the north side of the property, future county road passing through the property</p>
+                    <a href="./projects-03georgetown.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj04_burnet353.jpg"></i></div>
+                    <h4>Burnet 353</h4>
+                    <p>Address: 10544 CR 108, Burnet, TX 78611</p>
+                    <p>Area: 353 Acres</p>
+                    <p>Lot Size: 5 ac - 12+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
+                    <a href="./projects-04burnet353.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj05_libertyhillnorth.jpg"></i></div>
+                    <h4>Liberty Hill North</h4>
+                    <p>Address: FM 243 Bertram TX</p>
+                    <p>Area: 316.93 Acres</p>
+                    <p>Lot Size: 5 ac - 15+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
+                    <a href="./projects-05libertyhillsnorth.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj06_libertyhillsouth.jpg"></i></div>
+                    <h4>Liberty Hill South</h4>
+                    <p>Address: CR 236, Liberty Hill, TX 786 
+                    <p>Area: 143.56 Acres</p>
+                    <p>Lot Size: 10 ac - 11+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
+                    <a href="./projects-06libertyhillssouth.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj07_hackberry.jpg"></i></div>
+                    <h4>Hackberry</h4>
+                    <p>Address: Hackberry lane, Salado, TX 76571</p> 
+                    <p>Area: 197 Acres</p>
+                    <p>Lot Size: 2 ac - 14+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
+                    <a href="./projects-07hackberry.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj08_armstrongnorth.jpg"></i></div>
+                    <h4>Armstrong North</h4>
+                    <p>Address: 15600 Armstrong Loop, Salado, Texas 76571</p>  
+                    <p>Area: 99.97 Acres</p>
+                    <p>Lot Size: 3 ac - 5+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
+                    <a href="./projects-08armstrongnorth.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj09_armstrongsouth.jpg"></i></div>
+                    <h4>Armstrong South</h4>
+                    <p>Address: Hackberry Road</p>
+                    <p>Area: 167.18 Acres</p>
+                    <p>Lot Size: 10+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
+                    <a href="./projects-09armstrongsouth.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj10_holland.jpg"></i></div>
+                    <h4>Holland</h4>
+                    <p>Address: FM 1123, Bell County, Holland, TX</p>
+                    <p>Area: 173 Acres</p>
+                    <p>Lot Size: 10 ac - 11+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
+                    <a href="./projects-10holland.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj11_oglesby521.jpg"></i></div>
+                    <h4>Oglesby 521</h4>
+                    <p>Address: CR 269 Oglesby, Coryell TX 76561</p>
+                    <p>Area: 521 Acres</p>
+                    <p>Lot Size: 6 ac - 11 ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
+                    <a href="./projects-11oglesby521.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj12_oglesby296.jpg"></i></div>
+                    <h4>Oglesby 296</h4>
+                    <p>Address: CR 303 Oglesby, Coryell Tx 76561</p>
+                    <p>Area: 296 Acres</p>
+                    <p>Lot Size: 3 ac - 21+ ac</p>
+                    <p>Features: Lake and amenities including pavilions, jetties, boat ramp, etc.</p>                   
+                    <a href="./projects-12oglesby296.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj13_briggs.jpg"></i></div>
+                    <h4>Briggs</h4>
+                    <p>Address: Highway 183, Burnet, TX</p>
+                    <p>Area: 114 Acres</p>
+                    <p>Lot Size: 2+ ac - 5+ ac</p>
+                    <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
+                    <a href="./projects-13briggs.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj14_sanforda.jpg"></i></div>
+                    <h4>Sanford A</h4>
+                    <p>Address: RM 243, Bertram, TX</p>
+                    <p>Area: 62.50 Acres</p>
+                    <p>Lot Size: 6600 sq.ft.</p>
+                    <p>Features: Residential estate.</p>                   
+                    <a href="./projects-14sanforda.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj15_sanfordb.jpg"></i></div>
+                    <h4>Sanford B</h4>
+                    <p>Address: RM 243, Bertram, TX</p>
+                    <p>Area: 161.23 Acres</p>                      
+                    <p>Lot Size: 6600 sq.ft.</p>
+                    <p>Features: Residential estate.</p>                   
+                    <a href="./projects-15sanfordb.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj16_nohavitz1.jpg"></i></div>
+                    <h4>Nohavitz 1</h4>
+                    <p>Address: 4496 FM 2546 Rd, El Campo, TX, 77437</p>
+                    <p>Area: 22.80 Acres</p>
+                    <p>Lot Size: 6+ ac - 10 ac</p>
+                    <p>Features: Residential estate.</p>                   
+                    <a href="./projects-16nohavitz1.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj17_nohavitz2.jpg"></i></div>
+                    <h4>Nohavitz 2</h4>
+                    <p>Address: 5658 FM 1096, Boling-Iago, TX 77420</p>
+                    <p>Area: 77.66 Acres</p>
+                    <p>Lot Size: 5+ ac - 10 ac</p>
+                    <p>Features: Residential estate.</p>                   
+                    <a href="./projects-17nohavitz2.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj18_wardbend.jpg"></i></div>
+                    <h4>Ward Bend</h4>
+                    <p>Address: 3804 Ward Bend Rd, Sealy TX, 77474</p>
+                    <p>Area: 16.52 Acres</p>
+                    <p>Lot Size: 2 ac - 5+ ac</p>
+                    <p>Features: Residential estates, or commercial development.</p>                   
+                    <a href="./projects-18wardbend.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj19_cypress.jpg"></i></div>
+                    <h4>Cypress</h4>
+                    <p>Address: Schroeder ln, Cypress Rosehill Rd, Cypress, TX 77429</p>
+                    <p>Area: 46.67 Acres</p>
+                    <p>Lot Size: 10 ac - 21+ ac</p>
+                    <p>Features: Residential estates.</p>                   
+                    <a href="./projects-19cypress.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj20_schulenberg.jpg"></i></div>
+                    <h4>SchulenBerg</h4>
+                    <p>Address: 2278 County RD 222, Schulenburg, TX</p>
+                    <p>Area: 80.03 Acres</p>
+                    <p>Lot Size: 6.5 ac - 26 ac</p>
+                    <p>Features: Residential estates, or commercial development.</p>                   
+                    <a href="./projects-20schulenberg.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="icon-box">
+                    <div class="project-photo"><img src="./assets/img/proj21_badminton.jpg"></i></div>
+                    <h4>Proposed Indoor Badminton Facility</h4>
+                    <p>Address: Bratton Business Park, 15508 Bratton Ln., Austin, TX 78728</p>
+                    <p>Features: As Built, Complete Architectural, Structural, Electrical, Mechanical/HVAC plans.</p>                   
+                    <a href="./projects-21badminton.html" class="btn btn-primary">Other Project Info</a>
+                  </div>
+                </div>
         
-        <!--- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="section-title">
+          <h3 class="section-subtitle" id="finished-projects">Finished</h3>
+        </div>    
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/proj01_burnet181.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Burnet 181</h4>
-              <p>Address: 5825 CR 340 BURNET, TX 78611</p>
-              <p>Area = 181 acres</p>
-              <p>Lot Size: 2 ac - 11+ ac</p>
-              <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development</p>
-              <a href="assets/img/proj01_burnet181a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="" style="font-weight:400"><i class="bx bx-plus"></i></a>
+          <div class="row" id="finished">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box" id="burnet181">
+                <div class="project-photo"><img src="./assets/img/proj_fin_01edna.jpg"></i></div>
+                <h4>Edna, Tx 2019</h4>
+                <p>Address: xxxx</p>
+                <p>Area: xxx acres</p>
+                <p>Lot Size: xxx</p>
+                <p>Features: xxx</p>
+                <a href="" class="btn btn-primary">Other Project Info</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/proj02_bertram399.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Bertram 399</h4>
-              <p>Address: 7800 CR 210, Bertram, TX 78654</p>
-              <p>Area: 399 Acres</p>
-              <p>Lot Size: 20 ac - 26+ac</p>
-              <p>Features: Chital Lake and Amenities including Pavilions, Jetties, Boat Ramp, etc</p>
-              <a href="assets/img/proj02_bertram399a.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="project-photo"><img src="./assets/img/proj_fin_02edna.jpg"></i></div>
+                <h4>Edna, Tx 2021</h4>
+                <p>Address: xxxx</p>
+                <p>Area: xxx Acres</p>
+                <p>Lot Size: xxx</p>
+                <p>Features: xxx</p>
+                <a href="" class="btn btn-primary">Other Project Info</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/proj03_georgetown.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Georgetown</h4>
-              <p>Address: FM 1105, Georgetown, Williamson, TX 78626</p>
-              <p>Area: 262 Acres</p>
-              <p>Lot Size: 8+ ac - 15+ac</p>
-              <p>Features: Opossum Creek on the north side of the property, future county road passing through the property.</p>
-              <a href="assets/img/proj03_georgetowna.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link1" title="10 Acre Lots"><i class="bx bx-plus"></i></a>
-              <a href="assets/img/proj03_georgetownb.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link2" title="High density"><i class="bx bx-minus"></i></a>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="project-photo"><img src="./assets/img/proj_fin_03ganado.jpg"></i></div>
+                <h4>Ganado, Tx 2021</h4>
+                <p>Address: xxxx</p>
+                <p>Area: xxx Acres</p>
+                <p>Lot Size: xxx</p>
+                <p>Features: xxx</p>
+                <a href="" class="btn btn-primary">Other Project Info</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/proj04_burnet353.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Burnet 353</h4>
-              <p>Address: 10544 CR 108, Burnet, TX 78611</p>
-              <p>Area: 353 Acres</p>
-              <p>Lot Size: 5 ac - 12+ ac</p>
-              <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
-              <a href="assets/img/proj04_burnet353.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="project-photo"><img src="./assets/img/proj_fin_04lolita.jpg"></i></div>
+                <h4>Lolita, Tx 2021</h4>
+                <p>Address: xxxx</p>
+                <p>Area: xxx Acres</p>
+                <p>Lot Size: xxx</p>
+                <p>Features: xxx</p>
+                <a href="" class="btn btn-primary">Other Project Info</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/proj05_libertyhillnorth.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Liberty Hill North</h4>
-              <p>Address: FM 243 Bertram Tx</p>
-              <p>Area: 316.93 Acres</p>
-              <p>Lot Size: 5 ac - 15 + ac</p>
-              <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
-              <a href="assets/img/libertyhill001.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="project-photo"><img src="./assets/img/proj_fin_05wharton.jpg"></i></div>
+                <h4>Wharton, Tx 2021</h4>
+                <p>Address: xxx</p>
+                <p>Area: 17.4 Acres</p>
+                <p>Lot Size: 6 - 2.9 Acre Lots</p>
+                <p>Features: xxx</p>
+                <a href="" class="btn btn-primary">Other Project Info</a>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/proj06_libertyhillsouth.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Liberty Hill South</h4>
-              <p>Address: CR 236, Liberty Hill, Tx 786</p>
-              <p>Area: 143.56 Acres</p>
-              <p>Lot Size: 10 ac - 11 + ac</p>
-              <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
-              <a href="assets/img/devinproperty001.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="project-photo"><img src="./assets/img/proj_fin_06orchard.jpg"></i></div>
+                <h4>Orchard, Tx 2021</h4>
+                <p>Address: xxxx 
+                <p>Area: 40 Acres</p>
+                <p>Lot Size: 16 - 2.5 Acre Lots</p>
+                <p>Features: xxx</p>
+                <a href="" class="btn btn-primary">Other Project Info</a>
+              </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <img src="assets/img/proj07_hackberry.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Hackberry</h4>
-            <p>Address: Hackberry Lane, Salado, Tx 76571</p>
-            <p>Area: 197 Acres</p>
-            <p>Lot Size: 2 ac - 14 + ac</p>
-            <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
-            <a href="assets/img/devinproperty001.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-            <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-          </div>
-        </div>
-      </div>
-      </div> --->
-
-      <div class="row">
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box" id="burnet181">
-                  <div class="project-photo"><img src="./assets/img/proj01_burnet181.jpg"></i></div>
-                  <h4>Burnet 181</h4>
-                  <p>Address: 5825 CR 340 Burnet, TX 78611</p>
-                  <p>Area: 181 acres</p>
-                  <p>Lot Size: 2 ac - 11+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development</p>
-                  <a href="./projects-01burnet.html" class="btn btn-primary">Other Project Info</a>
-                </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="project-photo"><img src="./assets/img/proj_fin_07eastcedar.jpg"></i></div>
+                <h4>East Cedar, Edna Tx 2021</h4>
+                <p>Address: Edna Tx</p> 
+                <p>Area: xxx</p>
+                <p>Lot Size: xxx</p>
+                <p>Features: xxx</p>                   
+                <a href="" class="btn btn-primary">Other Project Info</a>
               </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj02_bertram399.jpg"></i></div>
-                  <h4>Bertram 399</h4>
-                  <p>Address: 7800 CR 210, Bertram, TX 78654</p>
-                  <p>Area: 399 Acres</p>
-                  <p>Lot Size: 20 ac - 26+ac</p>
-                  <p>Features: Chital Lake and amenities including pavilions, jetties, boat ramp, etc.</p>
-                  <a href="./projects-02bertram399.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj03_georgetown.jpg"></i></div>
-                  <h4>Georgetown</h4>
-                  <p>Address: FM 1105, Georgetown, Williamson, TX 78626</p>
-                  <p>Area: 262 Acres</p>
-                  <p>Lot Size: 8+ ac - 15+ac</p>
-                  <p>Features: Opossum Creek on the north side of the property, future county road passing through the property</p>
-                  <a href="./projects-03georgetown.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj04_burnet353.jpg"></i></div>
-                  <h4>Burnet 353</h4>
-                  <p>Address: 10544 CR 108, Burnet, TX 78611</p>
-                  <p>Area: 353 Acres</p>
-                  <p>Lot Size: 5 ac - 12+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
-                  <a href="./projects-04burnet353.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj05_libertyhillnorth.jpg"></i></div>
-                  <h4>Liberty Hill North</h4>
-                  <p>Address: FM 243 Bertram TX</p>
-                  <p>Area: 316.93 Acres</p>
-                  <p>Lot Size: 5 ac - 15+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
-                  <a href="./projects-05libertyhillsnorth.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj06_libertyhillsouth.jpg"></i></div>
-                  <h4>Liberty Hill South</h4>
-                  <p>Address: CR 236, Liberty Hill, TX 786 
-                  <p>Area: 143.56 Acres</p>
-                  <p>Lot Size: 10 ac - 11+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>
-                  <a href="./projects-06libertyhillssouth.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj07_hackberry.jpg"></i></div>
-                  <h4>Hackberry</h4>
-                  <p>Address: Hackberry lane, Salado, TX 76571</p> 
-                  <p>Area: 197 Acres</p>
-                  <p>Lot Size: 2 ac - 14+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
-                  <a href="./projects-07hackberry.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj08_armstrongnorth.jpg"></i></div>
-                  <h4>Armstrong North</h4>
-                  <p>Address: 15600 Armstrong Loop, Salado, Texas 76571</p>  
-                  <p>Area: 99.97 Acres</p>
-                  <p>Lot Size: 3 ac - 5+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
-                  <a href="./projects-08armstrongnorth.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj09_armstrongsouth.jpg"></i></div>
-                  <h4>Armstrong South</h4>
-                  <p>Address: Hackberry Road</p>
-                  <p>Area: 167.18 Acres</p>
-                  <p>Lot Size: 10+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
-                  <a href="./projects-09armstrongsouth.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj10_holland.jpg"></i></div>
-                  <h4>Holland</h4>
-                  <p>Address: FM 1123, Bell County, Holland, TX</p>
-                  <p>Area: 173 Acres</p>
-                  <p>Lot Size: 10 ac - 11+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
-                  <a href="./projects-10holland.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj11_oglesby521.jpg"></i></div>
-                  <h4>Oglesby 521</h4>
-                  <p>Address: CR 269 Oglesby, Coryell TX 76561</p>
-                  <p>Area: 521 Acres</p>
-                  <p>Lot Size: 6 ac - 11 ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
-                  <a href="./projects-11oglesby521.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj12_oglesby296.jpg"></i></div>
-                  <h4>Oglesby 296</h4>
-                  <p>Address: CR 303 Oglesby, Coryell Tx 76561</p>
-                  <p>Area: 296 Acres</p>
-                  <p>Lot Size: 3 ac - 21+ ac</p>
-                  <p>Features: Lake and amenities including pavilions, jetties, boat ramp, etc.</p>                   
-                  <a href="./projects-12oglesby296.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj13_briggs.jpg"></i></div>
-                  <h4>Briggs</h4>
-                  <p>Address: Highway 183, Burnet, TX</p>
-                  <p>Area: 114 Acres</p>
-                  <p>Lot Size: 2+ ac - 5+ ac</p>
-                  <p>Features: Ample space for diverse uses such as residential estates, ranching, or commercial development.</p>                   
-                  <a href="./projects-13briggs.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj14_sanforda.jpg"></i></div>
-                  <h4>Sanford A</h4>
-                  <p>Address: RM 243, Bertram, TX</p>
-                  <p>Area: 62.50 Acres</p>
-                  <p>Lot Size: 6600 sq.ft.</p>
-                  <p>Features: Residential estate.</p>                   
-                  <a href="./projects-14sanforda.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj15_sanfordb.jpg"></i></div>
-                  <h4>Sanford B</h4>
-                  <p>Address: RM 243, Bertram, TX</p>
-                  <p>Area: 161.23 Acres</p>                      
-                  <p>Lot Size: 6600 sq.ft.</p>
-                  <p>Features: Residential estate.</p>                   
-                  <a href="./projects-15sanfordb.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj16_nohavitz1.jpg"></i></div>
-                  <h4>Nohavitz 1</h4>
-                  <p>Address: 4496 FM 2546 Rd, El Campo, TX, 77437</p>
-                  <p>Area: 22.80 Acres</p>
-                  <p>Lot Size: 6+ ac - 10 ac</p>
-                  <p>Features: Residential estate.</p>                   
-                  <a href="./projects-16nohavitz1.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj17_nohavitz2.jpg"></i></div>
-                  <h4>Nohavitz 2</h4>
-                  <p>Address: 5658 FM 1096, Boling-Iago, TX 77420</p>
-                  <p>Area: 77.66 Acres</p>
-                  <p>Lot Size: 5+ ac - 10 ac</p>
-                  <p>Features: Residential estate.</p>                   
-                  <a href="./projects-17nohavitz2.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj18_wardbend.jpg"></i></div>
-                  <h4>Ward Bend</h4>
-                  <p>Address: 3804 Ward Bend Rd, Sealy TX, 77474</p>
-                  <p>Area: 16.52 Acres</p>
-                  <p>Lot Size: 2 ac - 5+ ac</p>
-                  <p>Features: Residential estates, or commercial development.</p>                   
-                  <a href="./projects-18wardbend.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj19_cypress.jpg"></i></div>
-                  <h4>Cypress</h4>
-                  <p>Address: Schroeder ln, Cypress Rosehill Rd, Cypress, TX 77429</p>
-                  <p>Area: 46.67 Acres</p>
-                  <p>Lot Size: 10 ac - 21+ ac</p>
-                  <p>Features: Residential estates.</p>                   
-                  <a href="./projects-19cypress.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj20_schulenberg.jpg"></i></div>
-                  <h4>SchulenBerg</h4>
-                  <p>Address: 2278 County RD 222, Schulenburg, TX</p>
-                  <p>Area: 80.03 Acres</p>
-                  <p>Lot Size: 6.5 ac - 26 ac</p>
-                  <p>Features: Residential estates, or commercial development.</p>                   
-                  <a href="./projects-20schulenberg.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon-box">
-                  <div class="project-photo"><img src="./assets/img/proj21_badminton.jpg"></i></div>
-                  <h4>Proposed Indoor Badminton Facility</h4>
-                  <p>Address: Bratton Business Park, 15508 Bratton Ln., Austin, TX 78728</p>
-                  <p>Features: As Built, Complete Architectural, Structural, Electrical, Mechanical/HVAC plans.</p>                   
-                  <a href="./projects-21badminton.html" class="btn btn-primary">Other Project Info</a>
-                </div>
-              </div>
-
+            </div>
 
     </section><!-- End Portfolio Section -->
 
@@ -946,8 +894,8 @@
               21040 Highland Knolls Dr  <br>
               Katy, TX 77450 <br>
               <br><br>
-              <strong>Phone:</strong> 346-660-5145<br>
-              <strong>Email:</strong> admin@landhomestexas.com<br>
+              <strong>Phone:</strong> 346-746-7515<br>
+              <strong>Email:</strong> landhomestexas@gmail.com<br>
             </p>
           </div>
 
