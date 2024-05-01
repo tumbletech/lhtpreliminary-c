@@ -87,7 +87,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #106eea;
+  background: #222222;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -101,7 +101,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3284f1;
+  background: #222222;
   color: #fff;
 }
 
@@ -426,7 +426,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #106eea;
+  color: #222222;
 }
 
 .navbar-mobile .getstarted,
@@ -492,6 +492,8 @@ h6 {
 
 #hero .container {
   position: relative;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 #hero h1 {
@@ -565,6 +567,38 @@ h6 {
   color: #3b8af2;
 }
 
+.awards {
+  padding: 10px;
+  margin: 20px;
+}
+
+.award-title {
+  font-family: arial;
+  font-weight: 700;
+}
+
+.img-awards {
+  display: inline-flex;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+#award01 {
+  display: flex;
+  width: 15%;
+  height: 15%;
+  opacity: 100%;
+  margin: 10px;
+}
+
+#award03 {
+  display: flex;
+  width: 25%;
+  height: 25%;
+  opacity: 100%;
+  margin: 10px;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -623,7 +657,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #e7f1fd;
-  color: #106eea;
+  color: #222222;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -636,7 +670,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #106eea;
+  color: #222222;
 }
 
 .section-title p {
@@ -802,7 +836,7 @@ section {
   font-size: 24px;
   padding: 20px;
   margin-right: 15px;
-  color: #106eea;
+  color: #222222;
   border-radius: 50px;
 }
 
@@ -911,11 +945,11 @@ section {
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover .icon i {
-  color: #106eea;
+  color: #222222;
 }
 
 .services .icon-box:hover .icon {
-  border-color: #106eea;
+  border-color: #222222;
 }
 
 .services .row {
@@ -974,7 +1008,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #106eea;
+  color: #222222;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1021,7 +1055,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #106eea;
+  color: #222222;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1076,11 +1110,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #106eea;
+  border: 1px solid #aeb03f;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #106eea;
+  background-color: #aeb03f;
 }
 
 .portfolio-details .portfolio-info {
@@ -1173,11 +1207,11 @@ section {
 
 .porfolio .icon-box:hover h4 a,
 .porfolio .icon-box:hover .icon i {
-  color: #106eea;
+  color: black;
 }
 
 .porfolio .icon-box:hover .icon {
-  border-color: #106eea;
+  border-color: black;
 }
 
 .porfolio .row {
