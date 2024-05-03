@@ -472,17 +472,16 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
   /*background: url("../img/hero-bg.jpg") top left;*/
-  background: url("../img/hero-bg02.jpg") top left;
+  background: url("../img/background3-bg.jpg") top left;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.45);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -741,74 +740,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
---------------------------------------------------------------*/
-/*.featured-services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
-  border-radius: 8px;
-  z-index: 1;
-}
-
-.featured-services .icon-box::before {
-  content: "";
-  position: absolute;
-  background: #cbe0fb;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 100%;
-  transition: all 0.3s;
-  z-index: -1;
-}
-
-.featured-services .icon-box:hover::before {
-  background: #106eea;
-  top: 0;
-  border-radius: 0px;
-}
-
-.featured-services .icon {
-  margin-bottom: 15px;
-}
-
-.featured-services .icon i {
-  font-size: 48px;
-  line-height: 1;
-  color: #106eea;
-  transition: all 0.3s ease-in-out;
-}
-
-.featured-services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.featured-services .title a {
-  color: #111;
-}
-
-.featured-services .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-.featured-services .icon-box:hover .title a,
-.featured-services .icon-box:hover .description {
-  color: #fff;
-}
-
-.featured-services .icon-box:hover .icon i {
-  color: #fff;
-}*/
-
-/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
@@ -852,43 +783,6 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #222222;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #e2eefd;
-  height: 10px;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #106eea;
 }
 
 /*--------------------------------------------------------------
@@ -985,6 +879,24 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  /*background: url("../img/hero-bg.jpg") top left;*/
+  background: url("../img/hero-bg02.jpg") top left;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.portfolio:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 15px auto;
@@ -1331,8 +1243,25 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team .row {
+.team {
+    background: url("../img/background2-bg.jpg") top left;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
 
+.team:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.team .row {
   padding: 25px;
 }
 
@@ -1340,7 +1269,7 @@ section {
 
   padding: 25px;
   border-radius: 25px;
-  box-shadow: 10px 10px #DCDCDC;
+  box-shadow: 10px 10px #6e6e6e;
   text-align: center;
 }
 
@@ -1348,7 +1277,7 @@ section {
 
   padding: 25px;
   border-radius: 25px;
-  box-shadow: 10px 10px #DCDCDC;
+  box-shadow: 10px 10px #6e6e6e;
   text-align: center;
 }
 
@@ -1356,7 +1285,7 @@ section {
 
   padding: 30px;
   border-radius: 25px;
-  box-shadow: 10px 10px #DCDCDC;
+  box-shadow: 10px 10px #6e6e6e;
   text-align: center;
 }
 
@@ -1364,7 +1293,7 @@ section {
 
   padding: 30px;
   border-radius: 25px;
-  box-shadow: 10px 10px #DCDCDC;
+  box-shadow: 10px 10px #6e6e6e;
   text-align: center;
 }
 
@@ -1372,7 +1301,7 @@ section {
 
   padding: 30px;
   border-radius: 25px;
-  box-shadow: 10px 10px #DCDCDC;
+  box-shadow: 10px 10px #6e6e6e;
   text-align: center;
 }
 
@@ -1380,7 +1309,7 @@ section {
 
   padding: 25px;
   border-radius: 25px;
-  box-shadow: 10px 10px #DCDCDC;
+  box-shadow: 10px 10px #6e6e6e;
   text-align: center;
 }
 
@@ -1388,7 +1317,7 @@ section {
 
   padding: 25px;
   border-radius: 25px;
-  box-shadow: 10px 10px #DCDCDC;
+  box-shadow: 10px 10px #6e6e6e;
   text-align: center;
 }
 
@@ -1396,7 +1325,7 @@ section {
 
   padding: 25px;
   border-radius: 25px;
-  box-shadow: 10px 10px #DCDCDC;
+  box-shadow: 10px 10px #6e6e6e;
   text-align: center;
 }
 
@@ -1420,7 +1349,7 @@ section {
 
 .group-02 .row {
   float: left;
-  width: 10000%;
+  width: 100%;
   padding: 30px;
 
 }
