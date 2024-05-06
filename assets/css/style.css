@@ -507,7 +507,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #152138;
+  color: #092404;;
 }
 
 #hero h2 {
@@ -525,13 +525,14 @@ h6 {
 }
 
 #hero h6 {
-  color: #152238;
-  margin: 1px 0 12px 0;
-  font-size: 20px;
-  font-weight: 1000;
+  color: #022010;
+  margin: 1px;
+  font-size: 16px;
+  font-weight: 600;
   font-style:Bold;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
