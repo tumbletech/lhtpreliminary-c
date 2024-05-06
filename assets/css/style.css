@@ -217,6 +217,8 @@ h6 {
 */
 .navbar {
   padding: 0;
+  height: 50px;
+  position: absolute;
 }
 
 .navbar ul {
@@ -296,9 +298,10 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #152238;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+  list-style: none;
 }
 
 .navbar .dropdown ul li {
@@ -317,7 +320,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #106eea;
+  color: white;;
 }
 
 .navbar .dropdown:hover>ul {
@@ -795,6 +798,24 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  /*background: url("../img/hero-bg.jpg") top left;*/
+  background: url("../img/hero-bg05.jpg") top left;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.services:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.45);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .services .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
@@ -1431,6 +1452,27 @@ section {
   transform: translate(0, 50%);
   top: 25%;
   margin: auto;
+}
+
+/*--------------------------------------------------------------
+# Key Points
+--------------------------------------------------------------*/
+#keypoints {
+  /*background: url("../img/hero-bg.jpg") top left;*/
+  background: url("../img/hero-bg06.jpg") top left;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#keypoints:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.45);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 /*--------------------------------------------------------------
 # Contact
